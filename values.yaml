@@ -8,7 +8,7 @@ image:
   repository: tkavna123/spring-sample-test
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: $BUILD_NUMBER 
+  tag: `abc` 
 
 imagePullSecrets: []
 nameOverride: ""
